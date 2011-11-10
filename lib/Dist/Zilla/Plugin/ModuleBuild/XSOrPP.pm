@@ -46,7 +46,7 @@ In your F<dist.ini>:
 =head1 DESCRIPTION
 
 Use this plugin instead of the regular C<ModuleBuild> plugin. It generates a
-F<Build.PL> which accepts a C<--pp> flag to forcible disable XS
+F<Build.PL> which accepts a C<--pp> flag to forcibly disable XS
 compilation. Obviously, this is only useful if your module can work without
 its XS component.
 
