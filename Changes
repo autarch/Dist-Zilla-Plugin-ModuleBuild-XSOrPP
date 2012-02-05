@@ -1,5 +1,9 @@
 {{$NEXT}}
 
+- Add a real compiler check to the generated Build.PL. If there is no usable
+  compiler, then XS compilation is automatically disabled.
+
+
 0.02    2010-07-17
 
 - Fix copy-and-paste'o in tests.
