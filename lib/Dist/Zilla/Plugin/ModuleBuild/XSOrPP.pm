@@ -5,6 +5,8 @@ use warnings;
 
 use Moose;
 
+use Dist::Zilla 4.0 ();
+
 extends
     qw( Dist::Zilla::Plugin::ModuleBuild Dist::Zilla::Plugin::InlineFiles );
 
