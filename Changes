@@ -1,5 +1,7 @@
 {{$NEXT}}
 
+0.04    2012-02-08
+
 - Just use the Module::Build->have_c_compiler() method instead of doing this
   by hand. This removes a lot of redundant code.
 
